@@ -17,7 +17,7 @@ Feature Selection is done with the help of multiple techniques, each of them are
 - [Correlation](./pearson_r.ipynb)
 - [Variance Threshold](./variance_threshold.ipynb)
 - [Mean Absolute Differance](./mean_abs_diff.ipynb)
-- [Dispersion Ratio](./disp_ratio.py)
+- [Dispersion Ratio](./disp_ratio.ipynb)
 - [Mutual Dependence](./info_gain.ipynb)
 
 ---
