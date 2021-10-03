@@ -19,3 +19,13 @@ Feature Selection is done with the help of multiple techniques, each of them are
 - [Mean Absolute Differance](./mean_abs_diff.ipynb)
 - [Dispersion Ratio](./disp_ratio.py)
 - [Mutual Dependence](./info_gain.ipynb)
+
+---
+
+**Wrapper Methods** - Wrapper Methods uses the pre-configured estimators, these estimators have weights assigned to features. Now the wrapper methods uses these configured estimators to select the best features. They select the features one by one and make combinations of them. These combinations are then used to fit a model using the estimator provided. Lastly, the best set of features whose model performs best among all of them will be chosen as the final subset of features. The techniques which come under this category are:
+
+- [Forward Feature Selection](./frwrd_ft_sel.ipynb)
+- [Backward Feature Selection](./bckwrd_ft_sel.ipynb)
+- [Bi-Directional Feature Selection](./)
+- [Exhaustive Feature Selection](./ex_ft_sel.ipynb)
+- [Recursive Feature Selection](./rcrsv_ft_sel.py)
